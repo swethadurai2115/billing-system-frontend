@@ -3,8 +3,8 @@ import axios from 'axios';
 
 const App = () => {
   const [bills, setBills] = useState([]);
-  const [items, setItems] = useState([]);
-  const [customers, setCustomers] = useState([]);
+  const [Items, setItems] = useState([]);
+  const [Customers, setCustomers] = useState([]);
 
   useEffect(() => {
     // Fetch Bills, Items, and Customers from Backend
